@@ -71,16 +71,62 @@ header {
   
 
 
-.back{
+/* .back{
     height: 2500px;
-    width: auto;
+    width: 100%;
     background-image: url(./img/images.jpg);
-    
-    background-color: rgb(8, 8, 109);
-}
+    background-color: rgb(125, 125, 136);
+} */
 
 img {
   width: 400px;
   height: 500px;
 }
 
+.toggle-menu dt {
+  margin: 0 auto;
+  width: 400px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toggle-menu > dd {
+  display: none;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 400px;
+  line-height: 50px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}
+
+.toggle-menu dd + dd {
+  border-top: none;
+}
+
+.ranking {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+h3 {
+  text-align: center;
+  
+}
+
+
+.bb{
+  width: 150px;
+  height: 150px;
+}
+
+h4 {
+  color: black;
+}

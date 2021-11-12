@@ -1,0 +1,26 @@
+
+
+header{
+    height: 100px;
+    width: auto;
+    background-image: url(./darth\ maul.jpg);
+
+
+}
+
+.s1{   margin-left: 2800px;
+    padding-top: 300px;
+    height: 700px;
+    width: auto;
+zoom: 0.26;
+}
+
+
+
+
+.scene1{
+
+    display: flex;
+
+
+}

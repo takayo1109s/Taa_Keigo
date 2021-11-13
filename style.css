@@ -1,3 +1,7 @@
+/* body{
+  background-color: black;
+} */
+
 header {
     background-color: black;
   }
@@ -18,7 +22,7 @@ header {
   
   .header-bottom {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background-color: black;
   }
   
@@ -70,14 +74,6 @@ header {
   }
   
 
-
-/* .back{
-    height: 2500px;
-    width: 100%;
-    background-image: url(./img/images.jpg);
-    background-color: rgb(125, 125, 136);
-} */
-
 img {
   width: 400px;
   height: 500px;
@@ -118,7 +114,9 @@ img {
 
 h3 {
   text-align: center;
-  
+  padding: 1rem 2rem;
+  border-top: 6px double #000;
+  border-bottom: 6px double #000;
 }
 
 
@@ -129,4 +127,243 @@ h3 {
 
 h4 {
   color: black;
+}
+
+.blue{
+  display: none;
+  float: left;
+}
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+body {
+  background: #2f3640;
+}
+
+button {
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  width: 300px;
+  height: 50px;
+  margin: 20px auto 0;
+  color: #fff;
+  font-size: 1.5em;
+  background: #007db9;
+  box-shadow: 0px 5px 0 #000;
+  transition: .3s;
+}
+
+button:hover {
+  color: #007db9;;
+  box-shadow: none;
+  background: #fff;
+  transform: translate3d(0, 5px, 0);
+}
+
+h6 {
+  text-align: center;
+  padding: 1rem 2rem;
+  border-top: 6px double #000;
+  border-bottom: 6px double #000;
+  font-size: 30px;
+}
+
+.accordion_area .accordion_one .ac_header {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1.5rem 4rem 1.5rem 2rem;
+  position: relative;
+  z-index: +1;
+  cursor: pointer;
+  transition: .2s;
+}
+.accordion_area .accordion_one .ac_header:not(.open):hover {
+  background-color: #f1f8ff;
+}
+.accordion_area .accordion_one:nth-child(odd) .ac_header {
+  background-color: #f5f5f5;
+}
+.accordion_area .accordion_one:nth-child(odd) .ac_header:not(.open):hover {
+  background-color: #f1f8ff;
+}
+.accordion_area .accordion_one .ac_header .i_box {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+}
+.accordion_area .accordion_one .ac_header .i_box:before, .accordion_area .accordion_one .ac_header .i_box:after {
+  position: absolute;
+  content: "";
+  margin: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.accordion_area .accordion_one .ac_header .i_box:before {
+  border-top: 2px solid #014897;
+  width: 20px;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.accordion_area .accordion_one .ac_header .i_box:after {
+  border-left: 2px solid #014897;
+  width: 0;
+  height: 20px;
+  top: 0;
+  bottom: 0;
+  right: 9px;
+  transition: .3s;
+}
+.accordion_area .accordion_one .ac_header.open .i_box:after {
+  height: 0;
+}
+.accordion_area .accordion_one .ac_inner {
+  display: none;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #fff;
+}
+@media screen and (max-width: 736px) {
+  .accordion_area .accordion_one .ac_header {
+    padding: 1.5rem 2rem 1.5rem 1.0rem;
+  }
+  .accordion_area .accordion_one .ac_header .i_box {
+    right: 0.8rem;
+    width: 15px;
+    height: 15px;
+    margin-top: -7px;
+  }
+  .accordion_area .accordion_one .ac_header .i_box:before {
+    width: 15px;
+  }
+  .accordion_area .accordion_one .ac_header .i_box:after {
+    height: 15px;
+    right: 7px;
+  }
+  .accordion_area .accordion_one .ac_inner {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+/*=========
+faq
+=========*/
+
+.p-faq__headinner {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+}
+.p-faq__headinner::before {
+  position: absolute;
+  left: 0;
+  content: "Q．";
+  color: #09357f;
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-faq__headinner p.p-faq__q-txt {
+  font-size: 20px;
+}
+@media screen and (max-width: 736px) {
+  .p-faq__headinner {
+    padding-left: 25px;
+  }
+  .p-faq__headinner::before {
+    font-size: 14px;
+  }
+  .p-faq__headinner p.p-faq__q-txt {
+    font-size: 14px;
+  }
+}
+.p-faq__bodyinner {
+  display: block;
+  padding-left: 35px;
+  position: relative;
+  line-height: 1.5;
+}
+.p-faq__bodyinner::before {
+  position: absolute;
+  left: 0;
+  content: "A．";
+  color: #de0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-faq__bodyinner p.p-faq__a-txt {
+  font-size: 20px;
+}
+@media screen and (max-width: 736px) {
+  .p-faq__bodyinner {
+    padding-left: 25px;
+  }
+  .p-faq__bodyinner::before {
+    font-size: 14px;
+  }
+  .p-faq__bodyinner p.p-faq__a-txt {
+    font-size: 14px;
+  }
+}
+
+/*=========
+base
+=========*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  letter-spacing: .025em;
+  line-height: 1.8;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.s_section {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 2rem 10px;
+}
+.gutter>*:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+h2 {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  border-left: 5px solid #333333;
+  padding-left: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 736px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+ul.list-disc {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.list-disc__item {
+  margin-left: 1.5em;
+  list-style: disc;
 }

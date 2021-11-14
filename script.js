@@ -30,7 +30,7 @@ $(function(){
 
 
 
-document.getElementById("uranai_btn").onclick = function() {
+document.querySelector(".btn-emergency-top").onclick = function() {
   var rnd = Math.floor( Math.random() * 6 );
   var uranai;
   if (rnd === 0) uranai = "STAR WARS";

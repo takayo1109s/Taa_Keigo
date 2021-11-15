@@ -40,7 +40,7 @@ document.querySelector(".btn-emergency-top").onclick = function() {
   if (rnd === 4) uranai = "We Are The Millers";
   if (rnd === 5) uranai = "LoveHord";
   alert(uranai);
-}
+};
 
 
 
